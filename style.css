@@ -42,7 +42,7 @@ body {
     background-color: #1E3952;
     animation: animate 4.5s steps(12) infinite,
                borderfade 1s ease-out infinite;
-    border-left: 3px solid #4ADF86;
+    border-left: 5px solid #4ADF86;
 }
 
 @keyframes animate {
@@ -55,9 +55,9 @@ body {
 }
 @keyframes borderfade {
 	50% {
-		border-left: 6px solid #10B981;
+		border-left: 0;
 	}
 	100% {
-		border-left: 3px solid #4ADF86;
+		border-left: 5px solid #4ADF86;
 	}
 }
